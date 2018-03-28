@@ -1,2 +1,2 @@
-# NTUT_GCD_Test
-北科大專用
+# GCD_Test
+hw20180326-鄭勝中
