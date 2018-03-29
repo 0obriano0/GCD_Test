@@ -2,6 +2,10 @@
 
 ## 程式簡介
 
+**說明**
+
+此程式在挑戰用短除法(`gcd_using_euclidean_algorithm(int,int)`)
+
 **操作影片**
 
 [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
