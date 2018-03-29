@@ -13,9 +13,7 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
-<div align="center">
 [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
-</div>
 
 <iframe width="620" height="315"
         src="https://www.youtube.com/watch?v=zlT-50VEYGQ">
