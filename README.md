@@ -22,7 +22,7 @@
 
  此程式是從wiki上擷取下來
  
- 參考網站: https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E6%95%B8
+ 參考網站: `https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E6%95%B8`
 
 ```ruby
 int GCD_From_WIKI(int a, int b)
@@ -32,6 +32,41 @@ int GCD_From_WIKI(int a, int b)
 }
 ```
 
-```ruby
+### *int main()*
 
+ 此程式為檔案進入點
+
+```ruby
+int main(){
+	fprintf(stderr,"測試的範圍:\n\tNum1: 1~%d\n\tNum2: 1~%d\n\n測試中....",test_Num_End,test_Num_End);
+	
+	long clk_start = clock()/CLOCKS_PER_SEC; //輸入程式執行到現在的時間
+	boolean TGUF = test_gcd_using_factorization();
+	long clk_end[2];
+	clk_end[0] = clock()/CLOCKS_PER_SEC - clk_start;
+	
+	clk_start = clock()/CLOCKS_PER_SEC;
+	boolean TGUEA = test_gcd_using_euclidean_algorithm();
+	clk_end[1] = clock()/CLOCKS_PER_SEC - clk_start;
+	
+	fprintf(stderr,"\n\n\n測試結果:\n");
+	
+	fprintf(stderr,"- gcd_using_factorization()...");
+	if(TGUF)
+		fprintf(stderr,"\t\t測試正常\t\t");
+	else
+		fprintf(stderr,"\t\t######測試異常######\t");
+	fprintf(stderr,"測試時間: %d 秒\n",clk_end[0]);
+	
+	fprintf(stderr,"- gcd_using_euclidean_algorithm()...");
+	if(TGUEA)
+		fprintf(stderr,"\t測試正常\t\t");
+	else
+		fprintf(stderr,"\t######測試異常######\t");
+	fprintf(stderr,"測試時間: %d 秒\n",clk_end[1]);
+	
+	fprintf(stderr,"\n\n");
+	system("pause");
+	return 0;
+}
 ```
