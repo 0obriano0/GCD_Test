@@ -20,7 +20,7 @@
 
  IDE 版本過舊 無法使用 `c99` 將 `int LoopNum = 0` 宣告在 `for` 迴圈中
  
- ![title](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error C99-1.jpg)
+ ![alt text](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error C99-1.jpg)
  
 **解決方式**
 
