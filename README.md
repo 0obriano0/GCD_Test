@@ -31,3 +31,7 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
+
+```ruby
+
+```
