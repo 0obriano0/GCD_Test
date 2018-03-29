@@ -20,11 +20,17 @@
 
  IDE 版本過舊 無法使用 `c99` 將 `int LoopNum = 0` 宣告在 `for` 迴圈中
  
+ ![alt text](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error_C99-2.jpg)
+ 
  ![alt text](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error_C99-1.jpg)
  
 **解決方式**
 
  在呼叫編譯器時加上 `-std=c99` 命令即可
+ 
+ ![alt text](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error_C99-3.jpg)
+ 
+ ![alt text](https://github.com/0obriano0/GCD_Test/blob/master/IDE_Error_C99/error_C99-4.jpg)
 
 ## 標頭檔
 
