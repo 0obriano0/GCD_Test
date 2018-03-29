@@ -1,5 +1,11 @@
 # 最大公因數
 
+## 程式簡介
+
+*操作影片*
+
+[![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
+
 ## GCD_From_WIKI
 
  此程式是從wiki上擷取下來
@@ -13,4 +19,3 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
-[![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
