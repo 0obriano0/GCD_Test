@@ -2,7 +2,7 @@
 
 ## 程式簡介
 
-*操作影片*
+**操作影片**
 
 [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
