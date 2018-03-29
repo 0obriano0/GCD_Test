@@ -16,6 +16,16 @@
 
  [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
+## 標頭檔
+
+#include <stdio.h> 		//fprintf() 函示會使用到此標頭檔 
+
+#include <time.h> 		//只是想要順便計算一下時間 
+
+#include "main.h"
+
+#define test_Num_End 1000 	//設定測試程式跑的範圍
+
 ## 各函式 介紹
 
 ### *int GCD_From_WIKI(int,int)*
