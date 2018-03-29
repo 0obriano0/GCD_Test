@@ -8,7 +8,9 @@
  * 短除法`int gcd_using_factorization(int,int)` 
  * 輾轉相除法`int gcd_using_euclidean_algorithm(int,int)` 
  
- 並製作兩個測試程式 `boolean test_gcd_using_factorization()` 、 `boolean test_gcd_using_euclidean_algorithm()` 來測試自己的檔案是否成功。
+ 並製作兩個測試程式 `boolean test_gcd_using_factorization()` 、 `boolean test_gcd_using_euclidean_algorithm()` 來測試自己的兩個函式是否成功。
+ 
+ 我所使用的比對程式`GCD_From_WIKI(int,int)`是我從網路上載下來的。
 
 **操作影片**
 
@@ -16,7 +18,7 @@
 
 ## 各函式 介紹
 
-### *GCD_From_WIKI*
+### *GCD_From_WIKI(int,int)*
 
  此程式是從wiki上擷取下來
  
