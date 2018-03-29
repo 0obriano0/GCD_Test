@@ -40,10 +40,10 @@ int GCD_From_WIKI(int a, int b)
 int main(){
 	fprintf(stderr,"測試的範圍:\n\tNum1: 1~%d\n\tNum2: 1~%d\n\n測試中....",test_Num_End,test_Num_End);
 	
-	long clk_start = clock()/CLOCKS_PER_SEC; //輸入程式執行到現在的時間
-	boolean TGUF = test_gcd_using_factorization();
-	long clk_end[2];
-	clk_end[0] = clock()/CLOCKS_PER_SEC - clk_start;
+	long clk_start = clock()/CLOCKS_PER_SEC; 			//紀錄時間 test_gcd_using_factorization() 運行前的時間
+	boolean TGUF = test_gcd_using_factorization();			//運行 test_gcd_using_factorization()
+	long clk_end[2];						
+	clk_end[0] = clock()/CLOCKS_PER_SEC - clk_start;		//
 	
 	clk_start = clock()/CLOCKS_PER_SEC;
 	boolean TGUEA = test_gcd_using_euclidean_algorithm();
