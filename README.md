@@ -13,4 +13,4 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
-[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=zlT-50VEYGQ&feature=youtu.be"Video Title")]
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zlT-50VEYGQ&feature/0.jpg)](http://www.youtube.com/watch?v=zlT-50VEYGQ&feature "Video Title")
