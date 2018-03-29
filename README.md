@@ -44,7 +44,7 @@ int GCD_From_WIKI(int a, int b)
 
 ### *int main()*
 
- 此程式為檔案進入點
+ 此函式為`程式進入點`
 
 ```ruby
 int main(){
@@ -81,6 +81,10 @@ int main(){
 }
 ```
 
+### *int gcd_using_factorization(int,int)*
+
+ 此函式為`短除法`程式
+
 ```ruby
 int gcd_using_factorization(int num1,int num2){
 	int bufferNum[2] = {0,1};
@@ -98,6 +102,10 @@ int gcd_using_factorization(int num1,int num2){
 }
 ```
 
+### *int gcd_using_euclidean_algorithm(int,int)*
+
+ 此函式為`輾轉相除法`程式
+ 
 ```ruby
 int gcd_using_euclidean_algorithm(int num3,int num4){
 	int bufferNum = 1;
