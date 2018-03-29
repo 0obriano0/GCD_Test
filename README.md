@@ -6,9 +6,9 @@
 
 [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
-## 各函式 介紹
+# 各函式 介紹
 
-### GCD_From_WIKI
+## GCD_From_WIKI
 
  此程式是從wiki上擷取下來
  
