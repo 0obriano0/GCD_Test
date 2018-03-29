@@ -14,4 +14,4 @@ int GCD_From_WIKI(int a, int b)
 }
 ```
 
-[![Alt text](https://img.youtube.com/vi/JpMTS_PM1ws/0.jpg)](https://www.youtube.com/watch?v=JpMTS_PM1ws)
+[![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ?/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ?)
