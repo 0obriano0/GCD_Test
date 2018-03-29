@@ -2,13 +2,16 @@
 
 ## 程式簡介
 
-**說明**
+ **說明**
 
-此專案是挑戰使用 短除法`int gcd_using_factorization(int,int)` 及 輾轉相除法`int gcd_using_euclidean_algorithm(int,int)` 並製作兩個測試程式 `boolean test_gcd_using_factorization()` 、 `boolean test_gcd_using_euclidean_algorithm()` 來測試自己的檔案是否成功。
+ 此專案是挑戰使用 
+ * 短除法`int gcd_using_factorization(int,int)` 
+ * 輾轉相除法`int gcd_using_euclidean_algorithm(int,int)` 
+ 並製作兩個測試程式 `boolean test_gcd_using_factorization()` 、 `boolean test_gcd_using_euclidean_algorithm()` 來測試自己的檔案是否成功。
 
 **操作影片**
 
-[![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
+ [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
 ## 各函式 介紹
 
