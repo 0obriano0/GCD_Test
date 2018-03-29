@@ -16,6 +16,14 @@
 
  [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
+**遇到的問題**
+
+ IDE 版本過舊 無法使用 `c99` 將 `int LoopNum = 0` 宣告在 `for` 迴圈中
+ 
+**解決方式**
+
+ 在呼叫編譯器時加上 `-std=c99` 命令即可
+
 ## 標頭檔
 
 #include <stdio.h> 		//fprintf() 函示會使用到此標頭檔 
