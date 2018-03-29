@@ -14,7 +14,5 @@ int GCD_From_WIKI(int a, int b)
 }
 ```
 <div align="center">
-    <a width="620" height="315"
-        src="https://www.youtube.com/embed/OhlVBpEnjig">
-    </a>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qUceVZgudjY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
