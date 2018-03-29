@@ -118,6 +118,10 @@ int gcd_using_euclidean_algorithm(int num3,int num4){
 }
 ```
 
+### *boolean test_gcd_using_factorization()*
+
+ 此函式為`測試短除法`程式
+
 ```ruby
 boolean test_gcd_using_factorization(){
 	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
@@ -128,6 +132,10 @@ boolean test_gcd_using_factorization(){
 }
 ```
 
+### *boolean test_gcd_using_euclidean_algorithm()*
+
+ 此函式為`測試輾轉相除法`程式
+ 
 ```ruby
 boolean test_gcd_using_euclidean_algorithm(){
 	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
