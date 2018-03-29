@@ -18,7 +18,7 @@
 
 ## 各函式 介紹
 
-### *GCD_From_WIKI(int,int)*
+### *int GCD_From_WIKI(int,int)*
 
  此程式是從wiki上擷取下來
  
@@ -68,5 +68,54 @@ int main(){
 	fprintf(stderr,"\n\n");
 	system("pause");
 	return 0;
+}
+```
+
+```ruby
+int gcd_using_factorization(int num1,int num2){
+	int bufferNum[2] = {0,1};
+	bufferNum[0] = (num1>num2)?num2:num1;
+	for(int LoopNum = 2 ; LoopNum <= bufferNum[0];){
+		if(num1 % LoopNum == 0 && num2 % LoopNum == 0){
+			num1/=LoopNum;
+			num2/=LoopNum;
+			bufferNum[1]*=LoopNum;
+		}else{
+			LoopNum++;
+		}
+	}
+	return bufferNum[1];
+}
+```
+
+```ruby
+int gcd_using_euclidean_algorithm(int num3,int num4){
+	int bufferNum = 1;
+	while(bufferNum){
+		bufferNum=num3%num4;
+        num3=num4;
+        num4=bufferNum;
+	}
+	return num3;
+}
+```
+
+```ruby
+boolean test_gcd_using_factorization(){
+	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
+		for(int LoopNum2 = 1 ; LoopNum2 <= test_Num_End ; LoopNum2++)
+			if(gcd_using_factorization(LoopNum1,LoopNum2) != GCD_From_WIKI(LoopNum1,LoopNum2))
+				return false;
+	return true;
+}
+```
+
+```ruby
+boolean test_gcd_using_euclidean_algorithm(){
+	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
+		for(int LoopNum2 = 1 ; LoopNum2 <= test_Num_End ; LoopNum2++)
+			if(gcd_using_euclidean_algorithm(LoopNum1,LoopNum2) != GCD_From_WIKI(LoopNum1,LoopNum2))
+				return false;
+	return true;
 }
 ```
