@@ -40,26 +40,26 @@ int GCD_From_WIKI(int a, int b)
 int main(){
 	fprintf(stderr,"測試的範圍:\n\tNum1: 1~%d\n\tNum2: 1~%d\n\n測試中....",test_Num_End,test_Num_End);
 	
-	long clk_start = clock()/CLOCKS_PER_SEC; 			//紀錄時間 test_gcd_using_factorization() 運行前的時間
-	boolean TGUF = test_gcd_using_factorization();			//運行 test_gcd_using_factorization()
+	long clk_start = clock()/CLOCKS_PER_SEC; 		//紀錄 test_gcd_using_factorization() 運行前的時間
+	boolean TGUF = test_gcd_using_factorization();		//運行 test_gcd_using_factorization()
 	long clk_end[2];						
-	clk_end[0] = clock()/CLOCKS_PER_SEC - clk_start;		//
+	clk_end[0] = clock()/CLOCKS_PER_SEC - clk_start;	//紀錄 test_gcd_using_factorization() 運行的時間
 	
-	clk_start = clock()/CLOCKS_PER_SEC;
-	boolean TGUEA = test_gcd_using_euclidean_algorithm();
-	clk_end[1] = clock()/CLOCKS_PER_SEC - clk_start;
+	clk_start = clock()/CLOCKS_PER_SEC;			//紀錄 test_gcd_using_euclidean_algorithm() 運行前的時間
+	boolean TGUEA = test_gcd_using_euclidean_algorithm();	//運行 test_gcd_using_euclidean_algorithm()
+	clk_end[1] = clock()/CLOCKS_PER_SEC - clk_start;	//紀錄 test_gcd_using_euclidean_algorithm() 運行的時間
 	
 	fprintf(stderr,"\n\n\n測試結果:\n");
 	
 	fprintf(stderr,"- gcd_using_factorization()...");
-	if(TGUF)
+	if(TGUF)						//檢測 test_gcd_using_factorization() 的回傳值(TGUF) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
 		fprintf(stderr,"\t\t測試正常\t\t");
 	else
 		fprintf(stderr,"\t\t######測試異常######\t");
 	fprintf(stderr,"測試時間: %d 秒\n",clk_end[0]);
 	
 	fprintf(stderr,"- gcd_using_euclidean_algorithm()...");
-	if(TGUEA)
+	if(TGUEA)						//檢測 gcd_using_euclidean_algorithm() 的回傳值(TGUEA) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
 		fprintf(stderr,"\t測試正常\t\t");
 	else
 		fprintf(stderr,"\t######測試異常######\t");
