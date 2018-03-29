@@ -13,6 +13,4 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
-<div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qUceVZgudjY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+
