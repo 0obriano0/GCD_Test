@@ -13,4 +13,6 @@ int GCD_From_WIKI(int a, int b)
 	return a + b;
 }
 ```
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/zlT-50VEYGQ&feature/0.jpg)](http://www.youtube.com/watch?v=zlT-50VEYGQ&feature "Video Title")
+<a href="https://www.youtube.com/watch?v=JpMTS_PM1ws&t=106s
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
