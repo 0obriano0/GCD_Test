@@ -52,14 +52,18 @@ int main(){
 	fprintf(stderr,"\n\n\n測試結果:\n");
 	
 	fprintf(stderr,"- gcd_using_factorization()...");
-	if(TGUF)						//檢測 test_gcd_using_factorization() 的回傳值(TGUF) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
+	
+	//檢測 test_gcd_using_factorization() 的回傳值(TGUF) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
+	if(TGUF)						
 		fprintf(stderr,"\t\t測試正常\t\t");
 	else
 		fprintf(stderr,"\t\t######測試異常######\t");
 	fprintf(stderr,"測試時間: %d 秒\n",clk_end[0]);
 	
 	fprintf(stderr,"- gcd_using_euclidean_algorithm()...");
-	if(TGUEA)						//檢測 gcd_using_euclidean_algorithm() 的回傳值(TGUEA) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
+	
+	//檢測 gcd_using_euclidean_algorithm() 的回傳值(TGUEA) 假如函式沒問題就回傳 true  假如函式沒問題就回傳 false
+	if(TGUEA)						
 		fprintf(stderr,"\t測試正常\t\t");
 	else
 		fprintf(stderr,"\t######測試異常######\t");
