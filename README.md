@@ -2,7 +2,8 @@
 
 ## GCD_From_WIKI
 
- 此程式是從wiki上擷取下來的
+ 此程式是從wiki上擷取下來
+ 
  參考網站: https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E6%95%B8
 
 ```ruby
