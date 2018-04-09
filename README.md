@@ -138,7 +138,7 @@ int gcd_using_euclidean_algorithm(int num3,int num4){
 
  此函式為`測試短除法`程式
 
-```ruby
+```c
 boolean test_gcd_using_factorization(){
 	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
 		for(int LoopNum2 = 1 ; LoopNum2 <= test_Num_End ; LoopNum2++)
