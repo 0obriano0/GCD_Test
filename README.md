@@ -14,23 +14,23 @@
 
 **操作影片**
 
- [![Alt text](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
+ ![Video](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
 **遇到的問題**
 
  IDE 版本過舊 無法使用 `c99` 將 `int LoopNum = 0` 宣告在 `for` 迴圈中
  
- ![alt text](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-2.jpg)
+ ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-2.jpg)
  
- ![alt text](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-1.jpg)
+ ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-1.jpg)
  
 **解決方式**
 
  在呼叫編譯器時加上 `-std=c99` 命令即可
  
- ![alt text](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-3.jpg)
+ ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-3.jpg)
  
- ![alt text](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-4.jpg)
+ ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-4.jpg)
 
 ## 標頭檔
 
