@@ -2,7 +2,7 @@
 
 ## 程式簡介
 
- **說明**
+### **說明**
 
  此專案是挑戰使用 
  * 短除法`int gcd_using_factorization(int,int)` 
@@ -12,11 +12,11 @@
  
  我所使用的比對程式`GCD_From_WIKI(int,int)`是我從網路上載下來的。
 
-**操作影片**
+### **操作影片**
 
  [![Video](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
-**遇到的問題**
+### **遇到的問題**
 
  IDE 版本過舊 無法使用 `c99` 將 `int LoopNum = 0` 宣告在 `for` 迴圈中
  
@@ -24,7 +24,7 @@
  
  ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-1.jpg)
  
-**解決方式**
+### **解決方式**
 
  在呼叫編譯器時加上 `-std=c99` 命令即可
  
@@ -33,15 +33,12 @@
  ![Image](https://raw.githubusercontent.com/0obriano0/GCD_Test/master/IDE_Error_C99/error_C99-4.jpg)
 
 ## 標頭檔
-
+```c
 #include <stdio.h> 		//fprintf() 函示會使用到此標頭檔 
-
 #include <time.h> 		//只是想要順便計算一下時間 
-
 #include "main.h"
-
 #define test_Num_End 1000 	//設定測試程式跑的範圍
-
+```
 ## 各函式 介紹
 
 ### *int GCD_From_WIKI(int,int)*
