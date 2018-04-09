@@ -14,7 +14,7 @@
 
 **操作影片**
 
- ![Video](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
+ [![Video](https://img.youtube.com/vi/zlT-50VEYGQ/0.jpg)](https://www.youtube.com/watch?v=zlT-50VEYGQ)
 
 **遇到的問題**
 
