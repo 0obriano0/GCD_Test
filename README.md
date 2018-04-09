@@ -50,7 +50,7 @@
  
  參考網站: https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E6%95%B8
 
-```ruby
+```c
 int GCD_From_WIKI(int a, int b)
 {
 	if (b) while((a %= b) && (b %= a));
@@ -62,7 +62,7 @@ int GCD_From_WIKI(int a, int b)
 
  此函式為`程式進入點`
 
-```ruby
+```c
 int main(){
 	fprintf(stderr,"測試的範圍:\n\tNum1: 1~%d\n\tNum2: 1~%d\n\n測試中....",test_Num_End,test_Num_End);
 	
@@ -101,7 +101,7 @@ int main(){
 
  此函式為`短除法`程式
 
-```ruby
+```c
 int gcd_using_factorization(int num1,int num2){
 	int bufferNum[2] = {0,1};
 	bufferNum[0] = (num1>num2)?num2:num1;
@@ -122,7 +122,7 @@ int gcd_using_factorization(int num1,int num2){
 
  此函式為`輾轉相除法`程式
  
-```ruby
+```c
 int gcd_using_euclidean_algorithm(int num3,int num4){
 	int bufferNum = 1;
 	while(bufferNum){
@@ -152,7 +152,7 @@ boolean test_gcd_using_factorization(){
 
  此函式為`測試輾轉相除法`程式
  
-```ruby
+```c
 boolean test_gcd_using_euclidean_algorithm(){
 	for(int LoopNum1 = 1 ; LoopNum1 <= test_Num_End ; LoopNum1++)
 		for(int LoopNum2 = 1 ; LoopNum2 <= test_Num_End ; LoopNum2++)
