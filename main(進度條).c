@@ -140,8 +140,7 @@ void test_gcd_using_euclidean_algorithm_thread(long *clk_end,boolean *TGUEA){
 
 void displayProgress(int progress){  
         int k = 0;  
-        for (k=0; k<106; k++)  
-                putchar('\b');										//清除游標在的那一行，用來作為進度條顯示進度  
+        putchar('\r');												//移動游標到那一行的最前面，用來作為進度條顯示進度  
         int j = 0;
         fprintf(stderr,"  進度: ");
         for (j=0; j<progress/2; j++)  
