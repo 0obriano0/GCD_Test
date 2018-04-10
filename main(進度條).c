@@ -3,7 +3,7 @@
 #include <process.h> //多執行續函式庫
 #include <unistd.h> 
 #include "main(進度條).h"
-#define test_Num_End 20000 
+#define test_Num_End 4000 
 
 int GCD_From_WIKI(int a, int b)
 {
