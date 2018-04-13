@@ -123,7 +123,7 @@ void test_gcd_using_factorization_thread(long *clk_end,boolean *TGUF){
 void test_gcd_using_euclidean_algorithm_thread(long *clk_end,boolean *TGUEA){
 	int a[3],buffer;
 	a[0] = 0;
-	a[2]=0;
+	a[2] = 0;
 	long clk_start = clock()/CLOCKS_PER_SEC; //輸入程式執行到現在的時間
 	_beginthread(test_gcd_using_euclidean_algorithm, 0,a);
 	
